@@ -18,12 +18,12 @@ export const slideInAnimation =
             group([
                  query(':enter',[
                      style({ transform: 'translateX(-100%)' }),
-                     animate('0.75s ease-in-out',
+                     animate('1.25s ease-in-out',
                      style({ transform: 'translateX(0%)' }))
                  ], { optional: true }),
                  query(':leave', [
                      style({ transform:   'translateX(0%)'}),
-                     animate('0.75s ease-in-out',
+                     animate('1.25s ease-in-out',
                      style({ transform: 'translateX(100%)' }))
                  ], { optional: true }),
             ])
@@ -35,12 +35,12 @@ export const slideInAnimation =
             group([
                  query(':enter', [
                      style({ transform: 'translateX(100%)' }),
-                     animate('0.75s ease-in-out',
+                     animate('1.25s ease-in-out',
                      style({ transform: 'translateX(0%)' }))
                  ], { optional: true }),
                  query(':leave', [
                      style({ transform: 'translateX(0%)' }),
-                     animate('0.75s ease-in-out',
+                     animate('1.25s ease-in-out',
                      style({ transform: 'translateX(-100%)' }))
                      ], { optional: true }),
              ])
