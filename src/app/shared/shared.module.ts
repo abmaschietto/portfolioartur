@@ -2,17 +2,25 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ParagraphComponent } from './paragraph/paragraph.component';
 import { BannerComponent } from './banner/banner.component';
+import { QuoteComponent } from './quote/quote.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
   declarations: [
     ParagraphComponent,
-    BannerComponent],
+    BannerComponent,
+    QuoteComponent],
+
   imports: [
-    CommonModule
+    CommonModule,
+    FontAwesomeModule
   ],
+
   exports:[
     ParagraphComponent,
-    BannerComponent]
+    BannerComponent,
+    QuoteComponent
+  ]
 })
 export class SharedModule { }
