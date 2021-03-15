@@ -10,6 +10,7 @@ export class ParagraphComponent implements OnInit {
   constructor() { }
 
   @Input() private paragraph: string;
+  @Input() private title: string;
 
   ngOnInit() {
   }
