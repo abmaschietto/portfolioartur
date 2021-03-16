@@ -45,7 +45,7 @@ export const slideInAnimation =
                      ], { optional: true }),
              ])
        ]),
-       transition('Skills => Contato', [
+       transition('Skills => *', [
              query(':enter, :leave',
                  style({ position: 'fixed', width: '100%' }),
                  { optional: true }),
@@ -62,7 +62,7 @@ export const slideInAnimation =
                  ], { optional: true }),
              ])
        ]),
-       transition('Skills => Home', [
+       transition('Backstage => *', [
              query(':enter, :leave',
                  style({ position: 'fixed', width: '100%' }),
                  { optional: true }),

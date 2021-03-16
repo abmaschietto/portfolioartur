@@ -5,11 +5,12 @@ import { EmailpageComponent } from './emailpage/emailpage.component';
 import { SkillpageComponent } from './skillpage/skillpage.component';
 import { SharedModule } from '../shared/shared.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BackstageComponent } from './backstage/backstage.component';
 
 
 
 @NgModule({
-  declarations: [MainComponent, EmailpageComponent, SkillpageComponent],
+  declarations: [MainComponent, EmailpageComponent, SkillpageComponent, BackstageComponent],
   imports: [
     CommonModule,
     SharedModule,
