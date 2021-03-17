@@ -1,0 +1,28 @@
+<button type="button" class="btn btn-primary" data-toggle=modal [attr.data-target]="'#' + title">
+    Mais sobre {{ title }}
+</button>
+
+<!-- Modal -->
+<div class="modal fade" [id]=title data-backdrop="false"tabindex="-1" role="dialog" aria-labelledby="bunda" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">{{ title }}
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Aqui vai o conteúdo {{ title }}
+                Donec consectetur lorem ligula, suscipit luctus ante hendrerit sed. Nulla venenatis dui neque, quis vulputate leo maximus at. Donec porta mi lectus, nec posuere nisl mattis quis. Sed at quam luctus, imperdiet sapien ac, varius lectus. Praesent ullamcorper imperdiet eros nec condimentum. Etiam fringilla ut tellus et placerat. Curabitur aliquam faucibus orci vel tempor. Praesent fringilla turpis vitae nisi interdum, sit amet condimentum mauris eleifend. Pellentesque a metus nec dolor vulputate facilisis. Aliquam erat volutpat. Quisque dignissim, massa ut consectetur maximus, urna felis vehicula dolor, nec vehicula lectus augue a dolor. Vestibulum in iaculis augue, at blandit augue.
+
+Fusce iaculis, eros quis dignissim luctus, magna arcu fermentum urna, et maximus erat quam ut tortor. Mauris mollis sed magna et fringilla. Mauris mattis in neque nec facilisis. Donec commodo ullamcorper tempor. Quisque consectetur bibendum orci eu vehicula. In nec tincidunt nisl. Nulla elementum consectetur sapien sit amet molestie. Suspendisse potenti. Cras tempus auctor est, vel lobortis nisl interdum nec. Proin sed eros sit amet tellus lacinia egestas a in enim. Aenean volutpat elit ac purus scelerisque malesuada. Duis blandit dignissim malesuada. Integer auctor lacus metus, vel hendrerit lacus fermentum in.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

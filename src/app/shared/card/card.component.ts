@@ -11,10 +11,17 @@ export class CardComponent implements OnInit {
   @Input() cardTitle: string;
   @Input() cardParagraph: string;
   @Input() cardSecondParagraph: string;
+  @Input() firstImage: string;
+  @Input() secondImage: string;
+  @Input() thirdImage: string;
+  referenceId: string;
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
+    this.referenceId = `#${this.cardTitle}`
     AOS.init();
   }
 

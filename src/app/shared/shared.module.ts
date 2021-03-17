@@ -5,6 +5,7 @@ import { BannerComponent } from './banner/banner.component';
 import { QuoteComponent } from './quote/quote.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CardComponent } from './card/card.component';
+import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { CardComponent } from './card/card.component';
     ParagraphComponent,
     BannerComponent,
     QuoteComponent,
-    CardComponent],
+    CardComponent,
+    ModalComponent],
 
   imports: [
     CommonModule,
