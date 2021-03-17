@@ -7,13 +7,11 @@
         <paragraph [title]=cardTitle [paragraph]=cardParagraph></paragraph>
         <paragraph [paragraph]=cardSecondParagraph></paragraph>
         <modal [title]=cardTitle [text]="fdfddffd"></modal>
-
-        
       </div>
     </div>
     <!-- Carousel start -->
     <div class="col-md-5">
-      <div id=cardTitle class="carousel slide" data-ride="carousel">
+      <div [id]=carouselId class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li [attr.data-target]=this.referenceId data-slide-to="0" class="active"></li>
           <li [attr.data-target]=this.referenceId data-slide-to="1"></li>
@@ -31,13 +29,13 @@
             <img class="d-block" [src]=thirdImage alt="terceira imagem">
           </div>
           <a class="carousel-control-prev" [href]=this.referenceId role="button" data-slide="prev">
-  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span class="sr-only">Previous</span>
-</a>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
           <a class="carousel-control-next" [href]=this.referenceId role="button" data-slide="next">
-  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  <span class="sr-only">Next</span>
-</a>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
@@ -45,5 +43,3 @@
   </div>
 </div>
 <!-- End of card -->
-
-

@@ -15,13 +15,13 @@ export class CardComponent implements OnInit {
   @Input() secondImage: string;
   @Input() thirdImage: string;
   referenceId: string;
+  carouselId: string;
 
   constructor() {
-    
    }
-
   ngOnInit() {
-    this.referenceId = `#${this.cardTitle}`
+    this.carouselId = `${this.cardTitle}ID`
+    this.referenceId = `#${this.carouselId}`
     AOS.init();
   }
 
