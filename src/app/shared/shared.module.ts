@@ -4,13 +4,15 @@ import { ParagraphComponent } from './paragraph/paragraph.component';
 import { BannerComponent } from './banner/banner.component';
 import { QuoteComponent } from './quote/quote.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
   declarations: [
     ParagraphComponent,
     BannerComponent,
-    QuoteComponent],
+    QuoteComponent,
+    CardComponent],
 
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   exports:[
     ParagraphComponent,
     BannerComponent,
-    QuoteComponent
+    QuoteComponent,
+    CardComponent
   ]
 })
 export class SharedModule { }
