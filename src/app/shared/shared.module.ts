@@ -6,6 +6,7 @@ import { QuoteComponent } from './quote/quote.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CardComponent } from './card/card.component';
 import { ModalComponent } from './modal/modal.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ModalComponent } from './modal/modal.component';
     BannerComponent,
     QuoteComponent,
     CardComponent,
-    ModalComponent],
+    ModalComponent,
+    TimelineComponent],
 
   imports: [
     CommonModule,
