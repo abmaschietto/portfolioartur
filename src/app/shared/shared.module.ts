@@ -7,6 +7,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CardComponent } from './card/card.component';
 import { ModalComponent } from './modal/modal.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
 
 
 @NgModule({
@@ -20,14 +21,16 @@ import { TimelineComponent } from './timeline/timeline.component';
 
   imports: [
     CommonModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NgxTimelineAlbeModule
   ],
 
   exports:[
     ParagraphComponent,
     BannerComponent,
     QuoteComponent,
-    CardComponent
+    CardComponent,
+    TimelineComponent
   ]
 })
 export class SharedModule { }

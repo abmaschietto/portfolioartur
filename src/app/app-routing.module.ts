@@ -1,3 +1,4 @@
+import { TimelineComponent } from './shared/timeline/timeline.component';
 import { ModalComponent } from './shared/modal/modal.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
