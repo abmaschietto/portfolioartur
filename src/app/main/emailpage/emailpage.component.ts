@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import * as AOS from 'aos';
 
 @Component({
@@ -15,6 +15,10 @@ export class EmailpageComponent implements OnInit {
 
   ngOnInit() {
     AOS.init();
+  }
+
+  navigate(path: string) {
+    window.open(path, '_blank');
   }
 
 }

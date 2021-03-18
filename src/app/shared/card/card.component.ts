@@ -20,8 +20,8 @@ export class CardComponent implements OnInit {
   constructor() {
    }
   ngOnInit() {
-    this.carouselId = `${this.cardTitle}ID`
-    this.referenceId = `#${this.carouselId}`
+    this.carouselId = `${this.cardTitle}ID`;
+    this.referenceId = `#${this.carouselId}`;
     AOS.init();
   }
 
