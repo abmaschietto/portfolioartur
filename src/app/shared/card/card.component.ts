@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import * as AOS from 'aos';
+import { certificado } from 'src/app/models/certificado';
 
 @Component({
   selector: 'card',
@@ -14,11 +15,14 @@ export class CardComponent implements OnInit {
   @Input() firstImage: string;
   @Input() secondImage: string;
   @Input() thirdImage: string;
+  @Input() modalText: string;
+  @Input() certificados: certificado[];
   referenceId: string;
   carouselId: string;
 
   constructor() {
    }
+
   ngOnInit() {
     this.carouselId = `${this.cardTitle}ID`;
     this.referenceId = `#${this.carouselId}`;
