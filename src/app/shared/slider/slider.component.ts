@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
+import printJS from 'print-js';
 
 @Component({
   selector: 'slider',
@@ -40,5 +41,8 @@ export class SliderComponent implements OnInit {
       });  
     });
   }
+
+  printCv(){
+    printJS({printable:'../../assets/cv.pdf', type:'pdf', showModal:true})}
 
 }

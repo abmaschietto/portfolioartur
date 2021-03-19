@@ -1,3 +1,5 @@
+
+
 body {
     position: relative;
     overflow-x: hidden;
@@ -101,7 +103,7 @@ html { height: 100%;}
     background-color: #1a1a1a;
 }
 .sidebar-nav li:nth-child(5n+1):before {
-    background-color: #ec1b5a;
+    background-color: #9d9e56;
 }
 .sidebar-nav li:nth-child(5n+2):before {
     background-color: #bb1d12;
@@ -113,7 +115,7 @@ html { height: 100%;}
     background-color: #138121;
 }
 .sidebar-nav li:nth-child(5n+5):before {
-    background-color: #7d5d81;
+    background-color: #630a6e;
 }
 
 .sidebar-nav li:hover:before,
@@ -184,7 +186,7 @@ html { height: 100%;}
 .dropdown-menu.show {
     top: 0;
 }
-/*Fontawesome icons*/
+/* Fontawesome icons
 .nav.sidebar-nav li a::before {
     font-family: fontawesome;
     content: "\f12e";
@@ -234,7 +236,7 @@ a[href*="#contact"]::before {
 a[href*="#followme"]::before {
   content: "\f099" !important;
   color: #6b0e0e;
-}
+} */
 /*-------------------------------*/
 /*       Hamburger-Cross         */
 /*-------------------------------*/

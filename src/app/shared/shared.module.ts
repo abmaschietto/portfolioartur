@@ -8,6 +8,7 @@ import { CardComponent } from './card/card.component';
 import { ModalComponent } from './modal/modal.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
     QuoteComponent,
     CardComponent,
     ModalComponent,
-    TimelineComponent],
+    TimelineComponent,
+    FooterComponent],
 
   imports: [
     CommonModule,
@@ -30,7 +32,8 @@ import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
     BannerComponent,
     QuoteComponent,
     CardComponent,
-    TimelineComponent
+    TimelineComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
