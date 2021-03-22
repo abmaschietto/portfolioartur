@@ -35,7 +35,7 @@ html { height: 100%;}
     margin-left: -220px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #312323;
+    background: #283b4e;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -291,7 +291,7 @@ a[href*="#followme"]::before {
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #ac9517;
+  background-color: #343a40;
 }
 .hamburger.is-closed .hamb-top {
   top: 5px;
@@ -317,7 +317,7 @@ a[href*="#followme"]::before {
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-  background-color: #524d2e;
+  background-color: #343a40;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
