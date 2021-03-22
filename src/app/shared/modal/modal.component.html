@@ -17,7 +17,7 @@
                 <div *ngIf=!!text>
                     <p >{{ text }}</p>
                 </div>
-                <div *ngIf=!text>
+                <div *ngIf=!!certificados>
                     <h3>Meus certificados {{ title }}</h3>
                     <ul >
                         <li *ngFor="let certificado of certificados"> 

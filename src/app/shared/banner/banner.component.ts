@@ -9,8 +9,8 @@ export class BannerComponent implements OnInit {
 
   constructor() { }
 
-@Input() private imgPath: string;
-@Input() private imgDescription: string;
+@Input() public imgPath: string;
+@Input() public imgDescription: string;
 
   ngOnInit() {
 

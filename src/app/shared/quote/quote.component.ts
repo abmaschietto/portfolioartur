@@ -11,15 +11,15 @@ export class QuoteComponent implements OnInit {
 
 
   quoteIcon = faQuoteLeft;
-  @Input()private quoted: string;
-  @Input() private textQuote: string;
-  @Input() private quoteSource: string;
+  @Input() public quoted: string;
+  @Input() public textQuote: string;
+  @Input() public quoteSource: string;
 
   constructor() { }
 
 
   ngOnInit() {
-    AOS.init()
+    AOS.init();
   }
 
 
