@@ -11,6 +11,7 @@ import { NgxTimelineAlbeModule } from 'ngx-timeline-albe';
 import { FooterComponent } from './footer/footer.component';
 
 
+
 @NgModule({
   declarations: [
     ParagraphComponent,

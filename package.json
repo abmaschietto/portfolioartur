@@ -23,6 +23,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "aos": "^2.3.4",
+    "ng-sidebar": "^9.4.2",
     "ngx-timeline-albe": "^1.2.11",
     "popper.js": "^1.16.1",
     "print-js": "^1.6.0",

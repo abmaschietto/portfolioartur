@@ -44,5 +44,5 @@ export class SliderComponent implements OnInit {
 
   printCv(){
     printJS({printable:'../../assets/cv.pdf', type:'pdf', showModal:true})}
-
 }
+
