@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
 
+@media only screen and (max-width: 600px) {
+    .content{padding: 8%;}
+    }
+
 .box{
   height: 500px;
   margin: 20px;
