@@ -289,7 +289,7 @@ a[href*="#followme"]::before {
 .hamburger.is-closed .hamb-top,
 .hamburger.is-closed .hamb-middle,
 .hamburger.is-closed .hamb-bottom {
-  background-color: #343a40;
+  background-color: #f1f1f1;
 }
 .hamburger.is-closed .hamb-top {
   top: 5px;
@@ -315,7 +315,7 @@ a[href*="#followme"]::before {
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-middle,
 .hamburger.is-open .hamb-bottom {
-  background-color: #343a40;
+  background-color: #f1f1f1;
 }
 .hamburger.is-open .hamb-top,
 .hamburger.is-open .hamb-bottom {
