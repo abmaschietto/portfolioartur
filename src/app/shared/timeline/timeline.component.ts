@@ -8,25 +8,25 @@ import { TimelineItem } from 'ngx-timeline-albe';
 })
 export class TimelineComponent implements OnInit {
 
-  data: Array<TimelineItem> | String;
+  data: Array<TimelineItem> | string;
 
   constructor() { }
 
   ngOnInit() {
     this.data = [
       {
-        datetime: new Date('2021-03-16 23:59:59'),
+        datetime: new Date('2021-07-01 23:59:59'),
         header: 'São Paulo SP',
         body: [
           {
             tag: 'h1',
-            content: 'Desenvolvedor Full Stack Pleno'
+            content: 'Formação Concluída'
           },
           {
             tag: 'p',
-            content: 'Responsável por integrações, manutenção e melhorias em aplicativos Java/Angular.'
+            content: 'Análise e Desenvolvimento de sistemas.'
           }],
-        footer: 'Della Volpe Transportes'
+        footer: 'Universidade Cruzeiro do Sul'
       },
       {
         datetime: new Date('2020-10-06 23:59:59'),
