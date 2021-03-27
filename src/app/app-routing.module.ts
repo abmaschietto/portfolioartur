@@ -9,12 +9,12 @@ import { SkillpageComponent } from './main/skillpage/skillpage.component';
 
 
 const routes: Routes = [
-  {path:'**', component:MainComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
-  {path:'home', component:MainComponent, data: {animation: 'Home'}},
-  {path:'email', component:EmailpageComponent,  data: {animation: 'Contato'}},
-  {path:'skills', component:SkillpageComponent,  data: {animation: 'Skills'}},
-  {path:'backstage', component:BackstageComponent,  data: {animation: 'Backstage'}}
+  {path: 'home', component: MainComponent, data: {animation: 'Home'}},
+  {path: 'email', component: EmailpageComponent,  data: {animation: 'Contato'}},
+  {path: 'skills', component: SkillpageComponent,  data: {animation: 'Skills'}},
+  {path: 'backstage', component: BackstageComponent,  data: {animation: 'Backstage'}},
+  {path: '**', component: MainComponent}
 ];
 
 @NgModule({

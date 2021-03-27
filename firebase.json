@@ -3,7 +3,6 @@
     "public": "dist/portfolioartur",
     "ignore": [
       "firebase.json",
-      "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [
