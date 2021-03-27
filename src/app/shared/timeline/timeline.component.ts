@@ -15,7 +15,7 @@ export class TimelineComponent implements OnInit {
   ngOnInit() {
     this.data = [
       {
-        datetime: new Date('2021-07-01 23:59:59'),
+        datetime: new Date('2021-07-01T23:59:59'.replace(/\s/, 'T') + 'Z'),
         header: 'São Paulo SP',
         body: [
           {
@@ -29,7 +29,7 @@ export class TimelineComponent implements OnInit {
         footer: 'Universidade Cruzeiro do Sul'
       },
       {
-        datetime: new Date('2020-10-06 23:59:59'),
+        datetime: new Date('2020-10-06T23:59:59'.replace(/\s/, 'T') + 'Z'),
         header: 'São Paulo SP',
         body: [
           {
@@ -43,7 +43,7 @@ export class TimelineComponent implements OnInit {
         footer: 'Della Volpe Transportes'
       },
       {
-        datetime: new Date('2020-06-1 23:59:59'),
+        datetime: new Date('2020-06-01T23:59:59'.replace(/\s/, 'T') + 'Z'),
         header:  'São Paulo SP',
         body: [
           {
