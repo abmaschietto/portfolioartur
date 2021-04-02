@@ -168,7 +168,7 @@ html { height: 100%;}
     text-align: center;
     font-size: 1em;
     color: #ddd;
-    background:#212531;
+    background:#57699c;
     background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
 }
 .sidebar-nav .dropdown-menu {
@@ -178,7 +178,7 @@ html { height: 100%;}
     margin: 0;
     border-radius: 0;
     border: none;
-    background-color: #222;
+    background-color: rgb(18, 17, 39);
     box-shadow: none;
 }
 .dropdown-menu.show {
